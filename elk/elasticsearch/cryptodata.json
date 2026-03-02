@@ -1,0 +1,49 @@
+{
+  "settings": {
+    "analysis": {
+      "filter": {
+        "autocomplete_filter": {
+          "type": "edge_ngram",
+          "min_gram": 1,
+          "max_gram": 20
+        }
+      },
+      "analyzer": {
+        "autocomplete": {
+          "type": "custom",
+          "tokenizer": "standard",
+          "filter": ["lowercase", "autocomplete_filter"]
+        }
+      }
+    }
+  },
+  "mappings": {
+    "properties": {
+      "@timestamp": { "type": "date" },
+
+      "coin_id": {
+        "type": "text",
+        "fields": { "keyword": { "type": "keyword" } }
+      },
+
+      "name": {
+        "type": "text",
+        "analyzer": "autocomplete",
+        "fields": { "keyword": { "type": "keyword" } }
+      },
+
+      "symbol": {
+        "type": "text",
+        "analyzer": "autocomplete",
+        "fields": { "keyword": { "type": "keyword" } }
+      },
+
+      "current_price": { "type": "float" },
+      "market_cap": { "type": "float" },
+      "total_volume": { "type": "float" },
+
+      "ingested_at": { "type": "date" },
+      "last_updated": { "type": "date" }
+    }
+  }
+}

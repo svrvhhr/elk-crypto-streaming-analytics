@@ -1,0 +1,157 @@
+#! Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security.
+{
+  "took" : 727,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 8402,
+      "relation" : "eq"
+    },
+    "max_score" : null,
+    "hits" : [ ]
+  },
+  "aggregations" : {
+    "top_10_by_market_cap" : {
+      "doc_count_error_upper_bound" : -1,
+      "sum_other_doc_count" : 6719,
+      "buckets" : [
+        {
+          "key" : "bitcoin",
+          "doc_count" : 168,
+          "sum_volume" : {
+            "value" : 7.917645123584E12
+          },
+          "avg_price" : {
+            "value" : 67132.11309523809
+          },
+          "max_market_cap" : {
+            "value" : 1.388338741248E12
+          }
+        },
+        {
+          "key" : "ethereum",
+          "doc_count" : 168,
+          "sum_volume" : {
+            "value" : 3.82865595392E12
+          },
+          "avg_price" : {
+            "value" : 1979.0237535749163
+          },
+          "max_market_cap" : {
+            "value" : 2.48331239424E11
+          }
+        },
+        {
+          "key" : "tether",
+          "doc_count" : 168,
+          "sum_volume" : {
+            "value" : 1.2752925376512E13
+          },
+          "avg_price" : {
+            "value" : 0.9999120615067936
+          },
+          "max_market_cap" : {
+            "value" : 1.83644618752E11
+          }
+        },
+        {
+          "key" : "binancecoin",
+          "doc_count" : 168,
+          "sum_volume" : {
+            "value" : 2.11362469248E11
+          },
+          "avg_price" : {
+            "value" : 627.8892280941918
+          },
+          "max_market_cap" : {
+            "value" : 8.8552112128E10
+          }
+        },
+        {
+          "key" : "ripple",
+          "doc_count" : 168,
+          "sum_volume" : {
+            "value" : 5.13640840448E11
+          },
+          "avg_price" : {
+            "value" : 1.3693452434880393
+          },
+          "max_market_cap" : {
+            "value" : 8.6105874432E10
+          }
+        },
+        {
+          "key" : "usd-coin",
+          "doc_count" : 168,
+          "sum_volume" : {
+            "value" : 1.225881230592E12
+          },
+          "avg_price" : {
+            "value" : 0.9999219431054025
+          },
+          "max_market_cap" : {
+            "value" : 7.5181170688E10
+          }
+        },
+        {
+          "key" : "solana",
+          "doc_count" : 168,
+          "sum_volume" : {
+            "value" : 7.935445568E11
+          },
+          "avg_price" : {
+            "value" : 85.0051786786034
+          },
+          "max_market_cap" : {
+            "value" : 5.0682535936E10
+          }
+        },
+        {
+          "key" : "tron",
+          "doc_count" : 169,
+          "sum_volume" : {
+            "value" : 6.6247666208E10
+          },
+          "avg_price" : {
+            "value" : 0.2818442597191715
+          },
+          "max_market_cap" : {
+            "value" : 2.6813100032E10
+          }
+        },
+        {
+          "key" : "dogecoin",
+          "doc_count" : 169,
+          "sum_volume" : {
+            "value" : 2.01489327488E11
+          },
+          "avg_price" : {
+            "value" : 0.09341218939723347
+          },
+          "max_market_cap" : {
+            "value" : 1.6269200384E10
+          }
+        },
+        {
+          "key" : "figure-heloc",
+          "doc_count" : 169,
+          "sum_volume" : {
+            "value" : 4.842188E7
+          },
+          "avg_price" : {
+            "value" : 1.0290000438690186
+          },
+          "max_market_cap" : {
+            "value" : 1.590825472E10
+          }
+        }
+      ]
+    }
+  }
+}

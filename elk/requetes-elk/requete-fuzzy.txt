@@ -1,0 +1,11 @@
+GET cryptodata/_search
+{
+  "query": {
+    "fuzzy": {
+      "name": {
+        "value": "bitcion",
+        "fuzziness": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+GET cryptodata/_search
+{
+  "query": {
+    "match": {
+      "name": {
+        "query": "eth"
+      }
+    }
+  }
+}

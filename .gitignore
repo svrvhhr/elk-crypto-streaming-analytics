@@ -1,0 +1,11 @@
+dist/
+build/
+venv/
+.env
+__pycache__/
+*.pyc
+spark_ivy/
+.metastore_db/
+derby.log
+.DS_Store
+.vscode/

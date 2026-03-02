@@ -1,0 +1,19 @@
+
+GET cryptodata/_search
+{
+  "size": 0,
+  "aggs": {
+    "top_10_by_market_cap": {
+      "terms": {
+        "field": "coin_id.keyword",
+        "size": 10,
+        "order": { "max_market_cap": "desc" }
+      },
+      "aggs": {
+        "max_market_cap": { "max": { "field": "market_cap" } },
+        "avg_price": { "avg": { "field": "current_price" } },
+        "sum_volume": { "sum": { "field": "total_volume" } }
+      }
+    }
+  }
+}

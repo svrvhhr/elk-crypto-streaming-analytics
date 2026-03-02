@@ -1,0 +1,9 @@
+GET cryptodata/_search
+{
+  "query": {
+    "multi_match": {
+      "query": "bitcoin",
+      "fields": ["name", "symbol", "coin_id"]
+    }
+  }
+}

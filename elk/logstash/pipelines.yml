@@ -1,0 +1,5 @@
+- pipeline.id: users_pipeline
+  path.config: "/logstash_dir/registered_users.conf"
+
+- pipeline.id: cryptodata_pipeline
+  path.config: "/logstash_dir/cryptodata.conf"

@@ -1,0 +1,10 @@
+{"coin_id":"tether","name":"Tether","symbol":"usdt","avg_price":1.0,"max_price":1.0,"min_price":1.0,"avg_market_cap":1.83641751552E11,"avg_volume":7.3670811648E10,"n_records":1}
+{"coin_id":"bitcoin","name":"Bitcoin","symbol":"btc","avg_price":65844.0,"max_price":65844.0,"min_price":65844.0,"avg_market_cap":1.314969878528E12,"avg_volume":4.404135936E10,"n_records":1}
+{"coin_id":"ethereum","name":"Ethereum","symbol":"eth","avg_price":1938.760009765625,"max_price":1938.76,"min_price":1938.76,"avg_market_cap":2.34051633152E11,"avg_volume":2.3940438016E10,"n_records":1}
+{"coin_id":"solana","name":"Solana","symbol":"sol","avg_price":83.61000061035156,"max_price":83.61,"min_price":83.61,"avg_market_cap":4.752433152E10,"avg_volume":4.94594304E9,"n_records":1}
+{"coin_id":"usd-coin","name":"USDC","symbol":"usdc","avg_price":0.9999030232429504,"max_price":0.999903,"min_price":0.999903,"avg_market_cap":7.5181170688E10,"avg_volume":4.50902016E9,"n_records":1}
+{"coin_id":"ripple","name":"XRP","symbol":"xrp","avg_price":1.350000023841858,"max_price":1.35,"min_price":1.35,"avg_market_cap":8.2653175808E10,"avg_volume":3.264967424E9,"n_records":1}
+{"coin_id":"usd1-wlfi","name":"USD1","symbol":"usd1","avg_price":0.9995189905166626,"max_price":0.999721,"min_price":0.999317,"price_volatility_stddev":2.8567133920683974E-4,"avg_market_cap":4.683557376E9,"avg_volume":1.628942848E9,"n_records":2}
+{"coin_id":"dogecoin","name":"Dogecoin","symbol":"doge","avg_price":0.09246999770402908,"max_price":0.092558,"min_price":0.092382,"price_volatility_stddev":1.2444910694054236E-4,"avg_market_cap":1.5584865792E10,"avg_volume":1.356126656E9,"n_records":2}
+{"coin_id":"binancecoin","name":"BNB","symbol":"bnb","avg_price":619.9199829101562,"max_price":619.92,"min_price":619.92,"avg_market_cap":8.4314169344E10,"avg_volume":1.302585472E9,"n_records":1}
+{"coin_id":"sui","name":"Sui","symbol":"sui","avg_price":0.8893575072288513,"max_price":0.892067,"min_price":0.886648,"price_volatility_stddev":0.0038318228792164418,"avg_market_cap":3.45903872E9,"avg_volume":9.08447776E8,"n_records":2}

@@ -1,0 +1,41 @@
+#! Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security.
+{
+  "took" : 1146,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 8802,
+      "relation" : "eq"
+    },
+    "max_score" : null,
+    "hits" : [ ]
+  },
+  "aggregations" : {
+    "price_over_time" : {
+      "buckets" : [
+        {
+          "key_as_string" : "2026-03-01T00:00:00.000Z",
+          "key" : 1772323200000,
+          "doc_count" : 292,
+          "avg_price" : {
+            "value" : 1423.1998731525578
+          }
+        },
+        {
+          "key_as_string" : "2026-03-02T00:00:00.000Z",
+          "key" : 1772409600000,
+          "doc_count" : 8510,
+          "avg_price" : {
+            "value" : 1652.205532495671
+          }
+        }
+      ]
+    }
+  }
+}
